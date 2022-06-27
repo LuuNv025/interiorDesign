@@ -1,3 +1,13 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
 /* HEADER */
 .header img{
     width: 250px;
@@ -31,6 +41,9 @@
 }
 
 /* PRODUCTS */
+.products{
+    margin-bottom: 70px;
+}
 
 .products h2{
     text-align: center;
@@ -39,4 +52,18 @@
 .products__item{
     float: left;
     width: 25%;
+    padding: 0 10px;
+}
+
+.products__item img{
+    width: 100%;
+}
+
+.products__item button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    counter-reset: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
 }
