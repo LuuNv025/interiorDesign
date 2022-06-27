@@ -29,3 +29,14 @@
     background-size: cover;
     background-position: center center;
 }
+
+/* PRODUCTS */
+
+.products h2{
+    text-align: center;
+}
+
+.products__item{
+    float: left;
+    width: 25%;
+}
