@@ -1,0 +1,31 @@
+/* HEADER */
+.header img{
+    width: 250px;
+}
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 15px 0;
+    margin: 5px 0 5px 0;
+}
+
+.header li{
+    display: inline;
+}
+.header li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* CAROUSEL */
+
+.carousel{
+    background-image: url("../img/slider_1.jpg");
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
