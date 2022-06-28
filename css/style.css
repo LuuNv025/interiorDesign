@@ -129,3 +129,42 @@ html,body{
     font-size: 80px;
     margin: 0;
 }
+
+/* SERVICE */
+.service{
+    margin: 30px 0 10px;
+}
+.service__container{
+    margin: auto;
+    width: 70%;
+}
+
+.service__item{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+    padding: 5px;
+}
+
+.service__item i{
+    font-size: 40px;
+}
+
+.service__item h2{
+    margin: 10px 0;
+}
+.service__item p{
+    margin: 0;
+}
+/* FOOTER */
+.footer{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 20px 0;
+}
+
+.footer__contact h1, .footer__contact p{
+    margin: 0;
+}
