@@ -67,3 +67,31 @@ html,body{
     padding: 5px 10px;
     margin-top: 10px;
 }
+
+/* INTRO */
+
+.intro__des{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.intro__des span{
+    color: red;
+    font-weight: 700;
+}
+.intro__left, .intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__smallItem{
+    float:left;
+    width: 50%;
+}
+.intro__item{
+    padding: 0 15px 25px;
+}
+
+.intro__item img{
+    display: block;
+    width: 100%; 
+}
